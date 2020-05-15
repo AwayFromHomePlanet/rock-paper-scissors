@@ -15,3 +15,4 @@ New things I learned/tried:
     - adding and removing classes
     - changing textContent
 
+View it live at https://awayfromhomeplanet.github.io/rock-paper-scissors/
