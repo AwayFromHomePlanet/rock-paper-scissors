@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>Rock Paper Scissors</header>
+        
+        <div id="scoreboard">
+            <div id="names">
+                <span>You</span>
+                <span>CPU</span>
+            </div>
+
+            <div id="scores">
+                <span id="player-score">0</span>
+                <span id="computer-score">0</span>
+            </div>
+        </div>
+
+        <div id="play-area">
+            <img src="player.png" id="player">
+
+            <div id="choices">
+                <div id="0" class="choice button rock">ROCK</div>
+                <img src="rock.png" id="p0">
+                <img src="rock.png" id="c0">
+                <div id="rock" class="choice result rock">ROCK</div>
+
+                <div id="1" class="choice button paper">PAPER</div>
+                <img src="paper.png" id="p1">
+                <img src="paper.png" id="c1">
+                <div id="paper" class="choice result paper">PAPER</div>
+
+                <div id="2" class="choice button scissors">SCISSORS</div>
+                <img src="scissors.png" id="p2">
+                <img src="scissors.png" id="c2">
+                <div id="scissors" class="choice result scissors">SCISSORS</div>
+            </div>
+
+            <img src="robot.png" id="cpu">
+        </div>
+
+        <div id="reset">Reset</div>
+    </body>
+
+    <script src="script.js"></script>
+</html>

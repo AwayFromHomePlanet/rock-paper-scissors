@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Balsamiq Sans", sans-serif;
+    background-color: rgb(255, 234, 208);
+    text-align: center;
+}
+
+header {
+    padding: 15px 0 10px 20px;
+    background-color: rgb(4, 42, 43);
+    color: white;
+    text-align: left;
+    font-size: 24px;
+}
+
+#scoreboard {
+    width: 20vw;
+    margin: 40px auto;
+}
+
+#names {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(4, 42, 43, 0.8);
+    color: white;
+    font-size: 18px;
+}
+
+#scores {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(4, 42, 43);
+    font-size: 60px;
+}
+
+.plus-one {
+    color: rgb(69, 154, 160);
+    font-weight: 700;
+}
+
+#play-area {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#choices {
+    width: 60vw;
+    height: 55vh;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+img {
+    visibility: hidden;
+    max-height: 16vh;
+    justify-self: center;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.choice {
+    padding: 30px 60px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.button {
+    cursor: pointer;
+} .button:hover {
+    border: 4px solid rgb(4, 42, 43);
+    padding: 26px 56px;
+    box-shadow: 7px 7px rgba(4, 42, 43, 0.5);
+}
+
+.result {
+    opacity: 0.4;
+}
+
+.rock {
+    background-color: rgb(187, 57, 31);
+}
+
+.paper {
+    background-color: rgb(230, 192, 7);
+}
+
+.scissors {
+    background-color: rgb(69, 154, 160);
+}
+
+.chosen {
+    border: 4px solid white;
+    padding: 26px 56px;
+    opacity: 1;
+    color: white;
+    font-weight: 700;
+}
+
+#player, #cpu {
+    visibility: visible;
+    max-height: 20vh;
+}
+
+#reset {
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px 0;
+    display: block;
+    background-color: rgb(187, 57, 31);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+} #reset:hover {
+    width: 92px;
+    border: 4px solid rgb(4, 42, 43);
+    padding: 6px 0;
+    box-shadow: 7px 7px rgba(4, 42, 43, 0.5);
+}
+
+/*span, div, img {
+    border: 1px solid red;
+}
