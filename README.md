@@ -1,3 +1,5 @@
+View it live at https://awayfromhomeplanet.github.io/rock-paper-scissors/
+
 From the Odin Project's JavaScript tutorial on DOM manipulation.
 
 New things I learned/tried:
@@ -14,5 +16,3 @@ New things I learned/tried:
     - selecting elements with querySelector, querySelectorAll, and getElementById
     - adding and removing classes
     - changing textContent
-
-View it live at https://awayfromhomeplanet.github.io/rock-paper-scissors/
